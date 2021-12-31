@@ -11,8 +11,8 @@
 
 body {
     font-family: 'Nunito', 'Arial';
-    /* background-color: #ffe8d6;
-     */
+    background-color: #ffe8d6;
+     
      background-color: #e5e5e5;
 }
 
@@ -22,13 +22,28 @@ h1{
     color: #fca311;
 }
 
-
+button {
+    display: block;
+    font-size: 20px;
+    margin: 0px auto;
+    background-color: rgb(23, 49, 105);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+.btn {
+    transition: 1.5s;
+    display: block;}
+button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 10px black;
+}
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
-    /* border: solid orange; */
     margin: 55px auto;
     box-shadow: 5px 5px 20px black;
 }
@@ -57,3 +72,8 @@ h1{
     background-position-y: center;
 }
 
+
+.win {
+    background-color: rgba(47, 255, 47, 0.5);
+    background-blend-mode: difference;
+}
