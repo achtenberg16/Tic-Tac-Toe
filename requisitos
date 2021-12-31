@@ -1,0 +1,9 @@
+1- criar 9 elementos clicaveis 
+
+2- cada click no elemento deve adicionar uma jogada, porém não se pode clicar em um elemento de já foi jogado
+
+3- fazer um controle de a cada jogada trocar o jogador da vez
+
+4- adicionar as regras para ganhar o jogo
+
+5- se um jogador ganhar, desativar as próximas jogadas;
