@@ -66,7 +66,7 @@ function played (event) {
         TwoWinCondicion()
     }
     jogadas +=1
-    if(jogadas === 9) {
+    if(jogadas > 9) {
     restart.className = 'btn'
     }
 }
