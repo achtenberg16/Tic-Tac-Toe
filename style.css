@@ -57,7 +57,7 @@ button:hover {
 }
 
 .player-1 {
-    background-image: url(/img/red-circle-svgrepo-com.svg);
+    background-image: url(img/red-circle-svgrepo-com.svg);
     background-size: 50px;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -65,7 +65,7 @@ button:hover {
 }
 
 .player-2 {
-    background-image: url(/img/blue-circle-svgrepo-com.svg);
+    background-image: url(img/blue-circle-svgrepo-com.svg);
     background-size: 50px;
     background-repeat: no-repeat;
     background-position-x: center;
