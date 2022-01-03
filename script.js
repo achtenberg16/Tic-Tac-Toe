@@ -13,12 +13,12 @@ const start_draw = () => {
 }
 
 function restargame() {
+    jogadas = 0;
     container.innerHTML = ''
     start_draw();
     vez = "player one";
-    win = false
     restart.classList = ''
-    jogadas = 0;
+    win = false
 }
 restart.addEventListener('click', restargame)
 
