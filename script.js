@@ -18,6 +18,7 @@ function restargame() {
     vez = "player one";
     win = false
     restart.classList = ''
+    jogadas = 0;
 }
 restart.addEventListener('click', restargame)
 
@@ -26,7 +27,7 @@ function endGame(array, position, position1, position2) {
   array[position2].classList.add('win');
   array[position1].classList.add('win');
   restart.className = 'btn'
-  jogadas = 0;
+
 }
 
 function OneWindCondicion () {
@@ -66,7 +67,7 @@ function played (event) {
         TwoWinCondicion()
     }
     jogadas +=1
-    if(jogadas > 9) {
+    if(jogadas === 9) {
     restart.className = 'btn'
     }
 }
